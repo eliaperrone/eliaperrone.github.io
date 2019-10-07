@@ -12,29 +12,8 @@ body {
   text-align: center;
 }
 
-@media (min-width: 800px) {
-  #about-me {
-    font-weight: bold;
-    font-size: 50pt;
-    margin-top: 12%;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-
-  #eliaperrone {
-    font-weight: bold;
-    font-size: 150pt;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    animation: blinker 3s linear infinite;
-  }
-
-  #button {
-    width: 20%;
-    margin-top: 3%;
-    font-size: 16pt;
-  }
-}
-
-@media (max-width: 800px) {
+/* Mobile Device */
+@media (max-width: 1100px) {
   #about-me {
     font-weight: bold;
     font-size: 20pt;
@@ -51,6 +30,29 @@ body {
 
   #button {
     width: 60%;
+    margin-top: 3%;
+    font-size: 16pt;
+  }
+}
+
+/* Desktop Device */
+@media (min-width: 1100px) {
+  #about-me {
+    font-weight: bold;
+    font-size: 50pt;
+    margin-top: 12%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  #eliaperrone {
+    font-weight: bold;
+    font-size: 150pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    animation: blinker 3s linear infinite;
+  }
+
+  #button {
+    width: 20%;
     margin-top: 3%;
     font-size: 16pt;
   }
