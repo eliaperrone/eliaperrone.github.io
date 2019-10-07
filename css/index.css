@@ -2,32 +2,56 @@ body {
   background-color: #d8edf0;
 }
 
-#about-me {
-  font-weight: bold;
-  font-size: 50pt;
-  margin-top: 12%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#eliaperrone {
-  font-weight: bold;
-  font-size: 150pt;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation: blinker 3s linear infinite;
-}
-
-#container {
-  text-align: center;
-}
-
 @keyframes blinker {
   50% {
     opacity: 0.3;
   }
 }
 
-#button {
-  width: 20%;
-  margin-top: 3%;
-  font-size: 16pt;
+#container {
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  #about-me {
+    font-weight: bold;
+    font-size: 50pt;
+    margin-top: 12%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  #eliaperrone {
+    font-weight: bold;
+    font-size: 150pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    animation: blinker 3s linear infinite;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 3%;
+    font-size: 16pt;
+  }
+}
+
+@media (max-width: 500px) {
+  #about-me {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: 75%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  #eliaperrone {
+    font-weight: bold;
+    font-size: 40pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    animation: blinker 3s linear infinite;
+  }
+
+  #button {
+    width: 60%;
+    margin-top: 3%;
+    font-size: 16pt;
+  }
 }
