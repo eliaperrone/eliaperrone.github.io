@@ -12,7 +12,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1800px) {
   #about-me {
     font-weight: bold;
     font-size: 50pt;
@@ -34,7 +34,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1800px) {
   #about-me {
     font-weight: bold;
     font-size: 20pt;
